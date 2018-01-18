@@ -1,24 +1,23 @@
-//Display the pattern using numebr repeating for a row
-//fix and complete the program below.
-
+//Name:Dayang Nur Atiqah bt. Ag Zulkarenain
+//Matric no.:A17DW1171
 
 #include <iostream>
-
+using namespace std;
 
 int main()
 {
-	cout<<"Display the pattern"<<endl;
-	cout<<"-------------------"<<endl;
+    int rows;
 
-	i,j,rows;
-	cout<<"Input number of rows :"<<endl;
+    cout << "Enter number of rows: ";
+    cin >> rows;
 
-
-	for(i=1;i<=rows;i++)
-	{
-	for(j=1;j<=i;j++)
-		
-	cout<<endl;
-	}
+    for(int i = 1; i <= rows; ++i)
+    {
+        for(int j = 1; j <= i; ++j)
+        {
+            cout << j << " ";
+        }
+        cout << "\n";
+    }
+    return 0;
 }
-	

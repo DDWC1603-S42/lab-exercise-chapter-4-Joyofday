@@ -1,25 +1,27 @@
-//Find the sum of digits of a given number
+//Name:Dayang Nur Atiqah bt. Ag Zulkarenain
+//Matric no.:A17DW1171
 
-#include <iostream>
+#include<iostream>
 using namespace std;
 
-int main()
-{
-
+int main() {
+	
 	int no1,no2,x,sum;
-
+	
 	cout<<"Find the sum of a given number"<<endl;
-	cout<<"------------------------------"<<endl;
-
+	cout<<".............................."<<endl;
+	
 	cout<<"Input number: "<<endl;
-
-
-	while(no2>0)
-	{
-	r=no1%10;
-	no1=no1/10;
-	sum=sum+x;
-
+	cin>>no1>>no2;
+	
+	while(no2>0) {
+		
+		x=no1%10;
+		no1=no1/10;
+		sum=sum+x;
 	}
-	//print the sum of the digits here.
+	
+	cout<<"The sum is "<<sum<<endl;
+	
+	return 0;
 }

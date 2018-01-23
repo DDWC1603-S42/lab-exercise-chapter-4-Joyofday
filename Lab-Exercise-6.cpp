@@ -1,8 +1,12 @@
 //convert the program below to a "do...while" loop
+//Dayang Nur Atiqah binti Ag Zulkarenain
+//A17DW1171
 
 int n;
-cout<<"Enter a non-negative integer: ";
-cin>>n;
+do {
+	cout<<"Enter a non-negative integer: ";
+	cin>>n;
+}
 
 while(n<0)
 {
